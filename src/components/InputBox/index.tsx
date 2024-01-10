@@ -11,7 +11,7 @@ interface Props {
     setValue: Dispatch<SetStateAction<string>>;
     error: boolean;
 
-    icon?: string;
+    icon?: 'eye-light-off-icon' | 'eye-light-on-icon' | 'expend-right-light-icon';
     onButtonClick?: () => void;
 
     message?: string;
